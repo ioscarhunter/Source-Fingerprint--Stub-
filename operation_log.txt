@@ -1,0 +1,29 @@
+[12228:11324:1120/200227:VERBOSE1:crash_service_main.cc(68)] Session start. cmdline is [--reporter-url=https://ticinocrashreporter.azurewebsites.net/crash --application-name=VSCode --v=1]
+[12228:11324:1120/200227:VERBOSE1:crash_service.cc(142)] window handle is 002D0406
+[12228:11324:1120/200227:VERBOSE1:crash_service.cc(290)] pipe name is \\.\pipe\VSCode Crash Service
+dumps at 
+[12228:11324:1120/200227:VERBOSE1:crash_service.cc(294)] checkpoint is crash_checkpoint.txt
+server is https://ticinocrashreporter.azurewebsites.net/crash
+maximum 128 reports/day
+reporter is electron-crash-service
+[12228:11324:1120/200227:VERBOSE1:crash_service_main.cc(84)] Ready to process crash requests
+[12228:11424:1120/200227:VERBOSE1:crash_service.cc(323)] client start. pid = 10436
+[12228:11424:1120/200228:VERBOSE1:crash_service.cc(323)] client start. pid = 12820
+[8284:12420:1120/200228:VERBOSE1:crash_service_main.cc(68)] Session start. cmdline is [--reporter-url=https://ticinocrashreporter.azurewebsites.net/crash --application-name=VSCode --v=1]
+[8284:12420:1120/200228:VERBOSE1:crash_service.cc(142)] window handle is 000809B8
+[8284:12420:1120/200228:VERBOSE1:crash_service.cc(290)] pipe name is \\.\pipe\VSCode Crash Service
+dumps at 
+[8284:12420:1120/200228:VERBOSE1:crash_service.cc(294)] checkpoint is crash_checkpoint.txt
+server is https://ticinocrashreporter.azurewebsites.net/crash
+maximum 128 reports/day
+reporter is electron-crash-service
+[8284:12420:1120/200228:ERROR:crash_service.cc(301)] could not start dumper
+[12228:8632:1120/200230:VERBOSE1:crash_service.cc(331)] client end. pid = 10436
+[12228:8632:1120/200230:VERBOSE1:crash_service.cc(331)] client end. pid = 12820
+[12228:8632:1120/200232:VERBOSE1:crash_service.cc(352)] zero clients. exiting
+[12228:11324:1120/200232:VERBOSE1:crash_service.cc(490)] session ending..
+[12228:11324:1120/200232:VERBOSE1:crash_service.cc(495)] clients connected :2
+clients terminated :2
+dumps serviced :0
+dumps reported :0
+[12228:11324:1120/200232:VERBOSE1:crash_service_main.cc(89)] Session end. return code is 0
